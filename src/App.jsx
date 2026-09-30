@@ -146,7 +146,7 @@ gsap.fromTo(
         <div className="hero-visual relative z-10 w-full max-w-5xl flex justify-center -translate-y-6 md:-translate-y-4">
           <img
             ref={carRef}
-            src="/car.png"
+            src={`${import.meta.env.BASE_URL}car.png`}
             alt="Car"
             className="hero-car w-[90%] sm:w-[82%] md:w-[72%] max-w-4xl object-contain drop-shadow-[0_30px_40px_rgba(255,255,255,0.12)] will-change-transform"
           />
